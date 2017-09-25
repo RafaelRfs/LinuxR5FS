@@ -2,7 +2,7 @@ echo "##############################################"
 echo " Phone Hacker R5FS ~> Termux/GnuRoot"
 echo "##############################################"
 echo "______________________________________________"
-echo "[+]Configurando o Termux..."
+echo "[+]Configurando o LINUXR5FS..."
 echo "______________________________________________"
 dir_bin=/usr/bin/
 apt update && apt -y upgrade  
