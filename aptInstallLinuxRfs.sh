@@ -1,5 +1,5 @@
 echo "##############################################"
-echo " Phone Hacker R5FS ~> Termux/GnuRoot"
+echo " LINUXR5FS R5FS ~> Termux/GnuRoot"
 echo "##############################################"
 echo "______________________________________________"
 echo "[+]Configurando o LINUXR5FS..."
