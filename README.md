@@ -15,12 +15,10 @@
 * Client && Server;
 * Admin Finder 2;
 * Bruteforce Form;
-* Facebook Bruteforce;
 * File Downloader;
 * Man in the Middle ~ MITM;
 * Scanner Networks/Ports;
 * ShowDB;
-* Phishing Facebook;
 * TcpProxy;
 * Wifi Keys;
 * Verifiy Services (Verser);
@@ -43,15 +41,3 @@
 1. su -c dos2unix *.sh;
 1. Install Sudo and Ngrok: copy sudo and ngrok to /data/data/com.termux/files/usr/bin 
 1. sh aptInstallLinuxRfs . sh;
-
-#### **_Montar/Mount Server Php:_**
- sudo sh startServerPst .sh
-
-#### **_Montar/Mount Server Php:_**
- sudo php -S ip:port 
- 
-#### **_Montar/Mount Server PostgreSql:_**
-pg_ctl -D pg -l logfile start
-
-#### **_Montar/Mount Server Apache:_**
- httpd ou apachctl
