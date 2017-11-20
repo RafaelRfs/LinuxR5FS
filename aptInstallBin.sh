@@ -13,3 +13,4 @@ sudo mv setEtr $bin_dir
 sudo mv nmp $bin_dir
 sudo mv nsp $bin_dir
 sudo mv ShowDbLocal $bin_dir
+sudo mv unscn $bin_dir
