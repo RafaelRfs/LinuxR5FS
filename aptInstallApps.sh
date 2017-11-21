@@ -1,5 +1,5 @@
+echo "[...]Installing Apps..."
 apt update && apt -y upgrade
-apt install -y  apache2 apr apr-util autoconf ftp-ssl bison busybox clang coreutils git ruby ruby-dev nmap netcat openssh make php php-pgsql php-curl figlet ecj 
-apt install -y  autoconf curl wget nano ncurses-utils ncurses-dev hydra sqlite libsqlite-dev postgresql postgresql-dev postgresql-contrib libpcap-dev 
-apt install -y  libgmp-dev cmatrix libffi-dev glib gnupg gnupg2 libxslt-dev libtool libxml2-dev libxslt-dev libgrpc-dev pkg-config python python-dev 
-apt install -y  python2  python2-dev inetutils findutils readline-dev  openssl tcpdump unzip openssl-dev termux-tools termux-api zip w3m 
+apt install -y  net-tools php sudo php-curl python python-pip python3-pip postgresql postgresql-contrib ftp-ssl 
+pip install python-nmap sqlmap colorama PyX requests setuptools urllib3 wifi
+pip3 install BeautifulSoup colorama pycparser six urllib3 wifi youtube-dl
