@@ -1,0 +1,61 @@
+#!/bin/bash
+url="https://avante.biz/wp-content/uploads/Technical-Desktop-Wallpapers/"
+lnk="Technical-Desktop-Wallpapers-"
+img=""
+dirc="/root/Downloads/"
+
+BLUE='\033[0;34m' 
+NOCOLOR='\033[0m'
+LIGHTBLUE='\033[1;34m'
+GREEN='\033[0;36m'
+YELLOW='\033[1;34m'
+if [ -f "/usr/bin/figlet" ]; 
+then
+echo 
+else
+apt update && apt install -y figlet
+fi
+
+echo -e ${BLUE}"_________________________________________"
+figlet "R5FS"
+echo -e "__________________________${LIGHTBLUE}BACKGROUND SET"
+echo -e $NOCOLOR
+if [[ $1 == 1 ]];
+then
+img=${lnk}001.jpg
+elif [[ $1 == 2 ]];
+then
+img=${lnk}031.jpg
+
+elif [[ $1 == "-d" ]];
+then
+img=${lnk}0${2}.jpg
+
+else
+img=${lnk}${1}.jpg
+fi
+
+imagem=${dirc}${img}
+url_completa=${url}${img}
+files="/root/Downloads/"${img}
+chmod 77 $files
+echo -e "${GREEN}[+]Url:${NOCOLOR}"${url_completa}
+echo -e "${GREEN}[+]Image: ${NOCOLOR}"${files}
+
+if [ -f $files ];
+then
+echo -e  "${GREEN}[+]Image Found...${NOCOLOR}"
+
+else
+echo -e "${GREEN}[+]Image not Found...${NOCOLOR}"
+echo -e "${GREEN}[+]Downloading Image...${NOCOLOR}"
+echo -e "${YELLOW}..."
+wget $url_completa -P $dirc 
+fi
+if [ -f $files ];
+then
+echo -e "${GREEN}[+]Setting ${NOCOLOR} ${imagem}${NOCOLOR}"
+gsettings set org.gnome.desktop.background picture-uri file://$imagem
+else
+echo -e "${GREEN}[+]Image not Found..."
+fi
