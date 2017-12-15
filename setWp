@@ -38,7 +38,7 @@ fi
 imagem=${dirc}${img}
 url_completa=${url}${img}
 files="/root/Downloads/"${img}
-chmod 77 $files
+chmod 777 $files
 echo -e "${GREEN}[+]Url:${NOCOLOR}"${url_completa}
 echo -e "${GREEN}[+]Image: ${NOCOLOR}"${files}
 
