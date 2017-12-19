@@ -15,4 +15,5 @@ mv nmp $bin_dir
 mv nsp $bin_dir
 mv ShowDbLocal $bin_dir
 mv unscn $bin_dir
-mv setWallpaper $bin_dir
+mv setWp $bin_dir
+mv randWp $bin_dir
