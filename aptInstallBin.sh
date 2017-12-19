@@ -17,3 +17,4 @@ mv ShowDbLocal $bin_dir
 mv unscn $bin_dir
 mv setWp $bin_dir
 mv randWp $bin_dir
+./configBg.sh
