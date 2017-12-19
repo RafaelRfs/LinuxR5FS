@@ -1,5 +1,6 @@
+#!/bin/bash
 NUM=$(($RANDOM%99))
 NUM2=9
 N3=0
 if [ $NUM2 -ge $NUM ]; then N3=00${NUM}; else N3=0${NUM}; fi
-setWallpaper $N3
+setWp $N3
