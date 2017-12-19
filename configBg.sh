@@ -1,3 +1,4 @@
+chmod 777 *.sh
 mkdir ~/.config/autostart
 cd ~
 cat  desktop.sh > ~/.config/autostart/setWp.desktop
