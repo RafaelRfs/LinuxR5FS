@@ -1,0 +1,28 @@
+printf"
+[+]Comands: \n
+Client -> Set a Client Ip/Tcp Reverse Shell \n
+Server -> Set a Server Ip/Tcp Reverse Shell \n 
+ShowDb -> Shows the Content of database \n
+iptab -> Set the iptables to redirect trafic from port 80 to 10000 && set SSlstrip to Listen in port 10000 \n
+ipaceptport [INPUT/OUTPUT/FORWARD] [PORT] -> Firewall  rules Accept \n
+ipblock [INPUT/OUTPUT/FORWARD] [IP] -> Firewall  rules Drop \n
+iplist [INPUT/OUTPUT/FORWARD] -> Lists the rules \n
+ipdelete [INPUT/OUTPUT/FORWARD] [LINE] -> Delete from rules the line specified \n
+mit -> Man in the Middle with Scapy, save the log in bhp.pcap \n
+network [100] [1**] -> Shows the range of Ips class "C" in your network \n
+network-nmap -> port scanner from target \n
+ngrok \n
+nmp [ip] -> nmap  intensive scanner port \n
+nsp [ip_gateway] -> nmap network hosts scanner \n
+randWp -> set random Wallpaper to desktop, images saved in Downloads \n
+setWp [0 + number] -> set Wallpaper, images saved in Downloads \n
+setEtr [ip_gateway] [ip_target] -> Set the Ettercap to gateway and target \n 
+setEtr -> Set the Ettercap to all network \n
+showifi -> Show the wifi saved passwords and SSIds in computer \n
+unscn [url] -> Pentest with uniscan \n
+verser -> verify services active \n
+
+[Combos]: \n
+iptab + setEtr \n
+iptab + setEtr [ip_gateway] [ip_target] \n
+"
