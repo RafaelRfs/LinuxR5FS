@@ -35,6 +35,18 @@
 * verser;
 * randWp;
 * setWp [0 + number];
+* setEtr;
+* iptab;
+* ipaceptport [INPUT/OUTPUT/FORWARD] [PORT];
+* ipblock [INPUT/OUTPUT/FORWARD] [IP];
+* iplist [INPUT/OUTPUT/FORWARD];
+* ipdelete [INPUT/OUTPUT/FORWARD] [LINE];
+* ngrok;
+* nmp [ip];
+* nsp [ip_gateway];
+* setEtr [ip_gateway] [ip_target];
+* setEtr;
+* unscn [url];
 * ShowDb ou ShowDbLocal;
 
 #### **_Como instalar/ How to Install:_**
