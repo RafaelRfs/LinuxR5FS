@@ -33,6 +33,8 @@
 * network-nmap;
 * showifi;
 * verser;
+* randWp;
+* setWp [0 + number];
 * ShowDb ou ShowDbLocal;
 
 #### **_Como instalar/ How to Install:_**
