@@ -1,0 +1,1 @@
+iptables -A $1 -s $2 -j DROP

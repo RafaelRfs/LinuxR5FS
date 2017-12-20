@@ -1,0 +1,1 @@
+iptables -A $1 -m state --state NEW -p tcp --dport $2 -j ACCEPT
