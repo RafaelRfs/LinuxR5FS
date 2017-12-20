@@ -17,4 +17,8 @@ mv ShowDbLocal $bin_dir
 mv unscn $bin_dir
 mv setWp $bin_dir
 mv randWp $bin_dir
+mv ipaceptport $bin_dir
+mv ipblock $bin_dir
+mv ipdelete $bin_dir
+mv iplist $bin_dir
 ./configBg.sh
