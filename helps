@@ -15,13 +15,13 @@ ngrok \n
 nmp [ip] -> nmap  intensive scanner port \n
 nsp [ip_gateway] -> nmap network hosts scanner \n
 randWp -> set random Wallpaper to desktop, images saved in Downloads \n
+redirect -> redirect all the trafic to host that u set in etc/ettercap/etter.dns and don't forget to set etter.config  \n
 setWp [0 + number] -> set Wallpaper, images saved in Downloads \n
 setEtr [ip_gateway] [ip_target] -> Set the Ettercap to gateway and target \n 
 setEtr -> Set the Ettercap to all network \n
 showifi -> Show the wifi saved passwords and SSIds in computer \n
 unscn [url] -> Pentest with uniscan \n
 verser -> verify services active \n
-
 [Combos]: \n
 iptab + setEtr \n
 iptab + setEtr [ip_gateway] [ip_target] \n
