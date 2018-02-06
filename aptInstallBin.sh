@@ -11,6 +11,7 @@ mv verser $bin_dir
 mv ShowDb $bin_dir
 mv iptab $bin_dir
 mv setEtr $bin_dir
+mv redirect $bin_dir
 mv nmp $bin_dir
 mv nsp $bin_dir
 mv ShowDbLocal $bin_dir
